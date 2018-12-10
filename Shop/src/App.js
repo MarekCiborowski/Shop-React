@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-
+import Router from './Router'
 import './App.css';
-
-import { BrowserRouter } from 'react-router-dom'
 import Navigation from './Navigation';
 class App extends Component {
 
@@ -13,10 +11,8 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-      <Navigation></Navigation>
-      <BrowserRouter>
-      <App></App>
-      </BrowserRouter>
+        <Navigation/>
+        <Router/>
       </React.Fragment>
     );
   }

@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default function Order(props){
-    return <div>
-        <h2>Order</h2>
-        
-    </div>
+
+class Order extends Component {
+    state = {  }
+    render() { 
+        return (<h2>Order</h2>  );
+    }
 }
+ 
+export default Order;

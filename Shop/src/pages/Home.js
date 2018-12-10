@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default function Home(props){
-    return <div>
-        <h2>Home</h2>
-      
-    </div>
+class Home extends Component {
+    state = {  }
+    render() { 
+        return ( <h2>Home</h2> );
+    }
 }
+ 
+export default Home;

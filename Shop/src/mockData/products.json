@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Maciak",
+      "description": "Generał",
+      "price": 12.99
+    },
+    {
+      "id": 2,
+      "name": "Khalid",
+      "description": "Śmieć",
+      "price": 12.99
+    },
+    {
+      "id": 3,
+      "name": "Juchas",
+      "description": "Juchas",
+      "price": 12.99
+    },
+
+    {
+      "id": 4,
+      "name": "Tadejko",
+      "description": "Pedał",
+      "price": 12.99
+    },
+    {
+      "id": 5,
+      "name": "Twój stary",
+      "description": "Pijany",
+      "price": 12.99
+    }
+  ]
+}

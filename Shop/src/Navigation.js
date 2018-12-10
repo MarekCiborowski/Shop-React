@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom'
 
 class Navigation extends Component{
     render(){
-      return <nav>
-        <ul>
-          <li><NavLink to='/'>Home</NavLink></li>
-          <li><NavLink to='/cart'>Cart</NavLink></li>
-          <li><NavLink to='/yourOrders'>Your Orders</NavLink></li>
-        </ul>
+        const styles="btn btn-primary m-2"
+      return <nav className="navbar navbar-light bg-light">
+        
+          <NavLink to='/' className={styles}>Home</NavLink>
+          <NavLink to='/cart' className={styles}>Cart</NavLink>
+          <NavLink to='/yourOrders' className={styles}>Your Orders</NavLink>
+        
       </nav>
     }
   }

@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
-import Navbar from './navbar';
+
 import { BrowserRouter } from 'react-router-dom'
+import Navigation from './Navigation';
 class App extends Component {
+
+  state ={
+    cartProducts:[],
+    orders:[]
+  }
   render() {
     return (
       <React.Fragment>
-      <Navbar></Navbar>
+      <Navigation></Navigation>
       <BrowserRouter>
       <App></App>
       </BrowserRouter>

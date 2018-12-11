@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 
 class Home extends Component {
-    state = {  }
+    state = { 
+        cart:this.props.cart,
+
+     }
     render() { 
-        return ( <h2>Home</h2> );
+        return ( <h1></h1> );
     }
 }
  

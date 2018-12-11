@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
-
+import products from '../mockData/products.json'
 class Home extends Component {
     state = { 
         cart:this.props.cart,
-
      }
     render() { 
-        return ( <h1></h1> );
+        return ( 
+            <React.Fragment>
+        <h1>Sklepik</h1> 
+        <div><b>{ products.name }</b></div>
+        <div><i>{ products.description }</i></div>
+        <div>${ products.price }</div>
+        </React.Fragment>
+        );
+        
     }
 }
  
